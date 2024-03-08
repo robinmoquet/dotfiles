@@ -4,7 +4,7 @@ local opts = { noremap = true, silent = true }
 -- Config lsp
 keymap.set("n", "K", vim.lsp.buf.hover, opts)
 keymap.set("n", "gd", vim.lsp.buf.definition, opts)
--- todo
+
 -- keymap.set("n", "gD", vim.lsp.buf.definition, opts)
 keymap.set({ "n", "v" }, "<A-Return>", vim.lsp.buf.code_action, opts)
 
